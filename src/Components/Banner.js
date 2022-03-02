@@ -3,9 +3,6 @@ import Carousel from "./Carousel";
 // import Carousel from "./Carousel";
 
 const useStyles = makeStyles((theme) => ({
-  banner: {
-    backgroundImage: "url(./banner2.jpg)",
-  },
   bannerContent: {
     height: 400,
     display: "flex",
@@ -31,7 +28,7 @@ function Banner() {
   const classes = useStyles();
 
   return (
-    <div className={classes.banner}>
+    <div className={classes.banner}  >
       <Container className={classes.bannerContent}>
         <div className={classes.tagline}>
           <Typography
