@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Components/Header';
 import CoinPage from './Pages/CoinPage';
 import Homepage from './Pages/Homepage';
+import Alert from "./Components/Alert"
 
 function App() {
   const useStyles = makeStyles(() =>({
@@ -33,7 +34,7 @@ function App() {
 
 
    </div>
-   
+   <Alert/>
    </BrowserRouter>
   );
 }
